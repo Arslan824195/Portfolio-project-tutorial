@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@1,700&family=Poppins&family=Roboto+Condensed:ital,wght@0,100;1,100;1,400&family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --primary-white: #fff;
+}
+
+body{
+    font-family: "Roboto Condesed" sans-serif;
+}
+/*=========================Navbar============================*/
+.logo {
+    width: 8.25rem;
+}
+
+/*=========================Nav Links============================*/
+nav a.nav-link {
+    /* font-weight: 500; */
+    letter-spacing: 0.0373rem;
+    cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: auto;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-white) !important;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0% !important;
+    height: 6rem;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+.navbar-nav > li > a:hover{
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
